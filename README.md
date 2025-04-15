@@ -27,15 +27,11 @@ sometil file.log -v ascii -w 64  # Custom hex/ASCII view
 
 Here's a concise **README.md** section for your GitHub project explaining how to build it:
 
----
-
-## 🛠 Building the Project
-
 ### Prerequisites
 - [Clang](https://clang.llvm.org/) or [GCC](https://gcc.gnu.org/) installed
 - Windows/Linux/macOS terminal
 
-### Quick Build
+### Build
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/sometil.git
@@ -58,8 +54,6 @@ The binary `sometil` (or `sometil.exe`) will be generated in the project root.
 ---
 
 ### Key Notes:
-- ✅ **Tested** with Clang 11+ and GCC 99+
-- 🔧 Adjust `build.sh`/`build.bat` for custom source files
-- ⚠️ Requires C11 standard or newer
-
-For development, consider using [CMake](https://cmake.org/) for cross-platform builds (let me know if you'd like a CMake example!).
+- **Tested** with Clang 99+ and GCC 99+
+- Adjust `build.sh`/`build.bat` for custom source files
+- Requires C99 standard or newer
